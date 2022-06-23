@@ -12,10 +12,10 @@ import reactor.core.publisher.Mono;
 public class ActiveProductApi {
     @Autowired
     private IActiveProductService activeProductService;
-    /*
+
     @PostMapping
     public Mono<ActiveProduct> create(@RequestBody ActiveProduct activeProduct){ return activeProductService.create(activeProduct); }
-
+    /*
     @PutMapping
     public Mono<ActiveProduct> update(@RequestBody ActiveProduct activeProduct){ return activeProductService.update(activeProduct); }
      */
